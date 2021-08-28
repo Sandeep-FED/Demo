@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+  <head>
+    <title>Google_advanced_search</title>
+    <link rel="icon" type="image/x-icon" href="./assets/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="/Google_advanced_search.css">
+  </head>
+
+  <body>
+      <!-- Header section -->
+      <div class="header">
+          <div>
+              <div class="left-header">
+                  <img src="Images/Google-Logo.wine.svg" class="left-styling-logo">
+              </div>
+          </div>
+          <div class="right header">
+              <a class="right-header-styling" href="/Google_search.html">Google Search</a>
+          </div>
+      </div>
+      <!-- Section for advanced search Heading -->
+      <div class="adv-search">
+        <p id="styling-font">Advanced Search</p>
+      </div>
+      <!-- section for input fields -->
+      <form action="https://google.com/search" method="GET" name="f">
+
+          <div class="input-group">
+              <p id="padding-subhead">Find Pages With....</p>
+              <br>
+              <div class="field">
+                  <label for="label1">All these words:</label>
+                  <input type="text" class="textInput" name="as_q" value="" autofocus>
+              </div>
+              <br>
+              <div class="field">
+                  <label for="label2">this exact word or phrase:</label>
+                    <input type="text" class="textInput" name="as_epq" autofocus>
+              </div>
+              <br>
+              <div class="field">
+                  <label for="label3">any of these words:</label>
+                  <input type="text" class="textInput" name="as_oq" autofocus>
+              </div>
+              <br>
+              <div class="field">
+                  <label for="label4">None of these:</label>
+                    <input type="text" class="textInput" name="as_eq" autofocus>
+              </div>
+              <br>
+          </div>
+          <div class="adv-btn">
+            <input type="submit" value="Advanced Search">
+          </div>
+      </form>
+      
+  </body>
+</html>

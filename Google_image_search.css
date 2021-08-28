@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+/* Css for all */
+
+*{
+    text-decoration: none;
+    font-family: 'Roboto';
+    color: #000;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+a:hover{
+    text-decoration: underline;
+}
+/* Css for right header */
+
+.right-header{
+    display: flex;
+    justify-content: space-between;
+}
+.center{
+    display:block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+.search-box{
+    display:flex;
+    flex-direction: column;
+    margin: -5% auto;
+}
+input[type=text]{
+    padding: 10px;
+    border-radius: 50px;
+    border: 1px solid #c8d6e5;
+    outline: none;
+}
+.g-search-left{
+    display:block;
+    margin: 8%;
+    margin-left: auto;
+    margin-right: auto;
+    width: 10%;
+    padding: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 15px;
+    border:none;
+    background-color:#f5f6fa;
+}
+.g-search-left:hover{
+    background-color:#f1f2f6;
+    border:0.5px solid #ced6e0;
+}
+
+/* Footer */
+
+.footer{
+    background-color:#f1f2f6;
+    position:fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height:50px;
+    text-align: center;
+    display:flex;
+    justify-content:space-between;
+}
+/* css for left footer */
+.left-footer .left-footer-styling{
+    padding: 0 20px;
+}
+/* css for right footer */
+.right-footer .right-footer-styling{
+    padding: 0 20px;
+}
